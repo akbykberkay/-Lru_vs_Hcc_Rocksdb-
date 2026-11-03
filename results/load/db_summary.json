@@ -1,0 +1,141 @@
+{
+ "version": "11.8.1",
+ "num_keys": 10000000,
+ "sst_files": 5172,
+ "sst_bytes_on_disk": 5158580529,
+ "entries": 10000000,
+ "data_blocks": 1253338,
+ "data_block_bytes": 5115210363,
+ "avg_data_block_bytes": 4081.269667878896,
+ "entries_per_data_block": 7.978693696353258,
+ "index_block_bytes": 23772419,
+ "filter_block_bytes": 12744452,
+ "index_plus_filter_bytes": 36516871,
+ "avg_index_block_bytes": 4596.36871616396,
+ "avg_filter_block_bytes": 2464.124516627997,
+ "index_key_is_user_key": [
+  1
+ ],
+ "index_plus_filter_fit_in_cache_mb": {
+  "32": false,
+  "64": true,
+  "128": true,
+  "512": true,
+  "1024": true,
+  "2048": true
+ },
+ "levels": [
+  {
+   "level": 0,
+   "files": 1,
+   "files_being_compacted": 0,
+   "bytes": 459581.44,
+   "score": 0.2,
+   "target_bytes": null
+  },
+  {
+   "level": 1,
+   "files": 23,
+   "files_being_compacted": 0,
+   "bytes": 31520194.56,
+   "score": 0.9,
+   "target_bytes": 33554432
+  },
+  {
+   "level": 2,
+   "files": 46,
+   "files_being_compacted": 0,
+   "bytes": 66332917.76,
+   "score": 1.0,
+   "target_bytes": 67108864
+  },
+  {
+   "level": 3,
+   "files": 115,
+   "files_being_compacted": 0,
+   "bytes": 132634378.24,
+   "score": 1.0,
+   "target_bytes": 134217728
+  },
+  {
+   "level": 4,
+   "files": 211,
+   "files_being_compacted": 0,
+   "bytes": 267596595.2,
+   "score": 1.0,
+   "target_bytes": 268435456
+  },
+  {
+   "level": 5,
+   "files": 511,
+   "files_being_compacted": 0,
+   "bytes": 535088332.8,
+   "score": 1.0,
+   "target_bytes": 536870912
+  },
+  {
+   "level": 6,
+   "files": 1032,
+   "files_being_compacted": 0,
+   "bytes": 1070512209.92,
+   "score": 1.0,
+   "target_bytes": 1073741824
+  },
+  {
+   "level": 7,
+   "files": 2261,
+   "files_being_compacted": 0,
+   "bytes": 2147483648.0,
+   "score": 1.0,
+   "target_bytes": 2147483648
+  },
+  {
+   "level": 8,
+   "files": 972,
+   "files_being_compacted": 0,
+   "bytes": 910226882.56,
+   "score": 0.0,
+   "target_bytes": 4294967296
+  }
+ ],
+ "load_write_amplification": 19.1,
+ "fill_ops_per_sec": 29928,
+ "fill_seconds": 334.132,
+ "checks": [
+  {
+   "check": "sst files read by sst_dump == files on disk",
+   "ok": true,
+   "detail": "5172 parsed, 5172 on disk, summary 5172"
+  },
+  {
+   "check": "every key stored exactly once",
+   "ok": true,
+   "detail": "10000000 entries, expected 10000000"
+  },
+  {
+   "check": "sst_dump totals match per-file sums",
+   "ok": true,
+   "detail": "index 23772419, filter 12744452"
+  },
+  {
+   "check": "waitforcompaction finished OK",
+   "ok": true,
+   "detail": "OK"
+  },
+  {
+   "check": "L0 below compaction trigger",
+   "ok": true,
+   "detail": "L0 files = 1"
+  },
+  {
+   "check": "all levels within target size (score <= 1)",
+   "ok": true,
+   "detail": "over target: {}"
+  },
+  {
+   "check": "level table accounts for all files",
+   "ok": true,
+   "detail": "5172 in level table, 5172 on disk"
+  }
+ ]
+}

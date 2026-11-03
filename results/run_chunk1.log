@@ -1,0 +1,286 @@
+experiments: E0 E1 E2 E3 E4  configurations: 82  repetitions: 3  max threads: 2  skewed=x10
+2026-10-25T16:46:35-04:00 [1/246] rep1 lru_cache 64MB bits=6 ratio=0 t=1 x=0 reads=130000
+done: lru_cache__c64M__s6__r0__t1__x0__n130000 rep1
+2026-10-25T16:47:11-04:00 [2/246] rep1 auto_hyper_clock_cache 64MB bits=1 ratio=0 t=1 x=0 reads=130000
+done: auto_hyper_clock_cache__c64M__s1__r0__t1__x0__n130000 rep1
+2026-10-25T16:47:45-04:00 [3/246] rep1 fixed_hyper_clock_cache 64MB bits=1 ratio=0 t=1 x=0 reads=130000
+done: fixed_hyper_clock_cache__c64M__s1__r0__t1__x0__n130000 rep1
+2026-10-25T16:48:18-04:00 [4/246] rep1 lru_cache 64MB bits=6 ratio=0.5 t=1 x=0 reads=130000
+done: lru_cache__c64M__s6__r0.5__t1__x0__n130000 rep1
+2026-10-25T16:48:48-04:00 [5/246] rep1 auto_hyper_clock_cache 64MB bits=1 ratio=0.5 t=1 x=0 reads=130000
+done: auto_hyper_clock_cache__c64M__s1__r0.5__t1__x0__n130000 rep1
+2026-10-25T16:49:22-04:00 [6/246] rep1 fixed_hyper_clock_cache 64MB bits=1 ratio=0.5 t=1 x=0 reads=130000
+done: fixed_hyper_clock_cache__c64M__s1__r0.5__t1__x0__n130000 rep1
+2026-10-25T16:49:57-04:00 [7/246] rep1 lru_cache 64MB bits=6 ratio=1 t=1 x=0 reads=130000
+done: lru_cache__c64M__s6__r1__t1__x0__n130000 rep1
+2026-10-25T16:50:26-04:00 [8/246] rep1 auto_hyper_clock_cache 64MB bits=1 ratio=1 t=1 x=0 reads=130000
+done: auto_hyper_clock_cache__c64M__s1__r1__t1__x0__n130000 rep1
+2026-10-25T16:51:01-04:00 [9/246] rep1 fixed_hyper_clock_cache 64MB bits=1 ratio=1 t=1 x=0 reads=130000
+done: fixed_hyper_clock_cache__c64M__s1__r1__t1__x0__n130000 rep1
+2026-10-25T16:51:36-04:00 [10/246] rep1 lru_cache 64MB bits=6 ratio=0 t=1 x=10 reads=140000
+done: lru_cache__c64M__s6__r0__t1__x10__n140000 rep1
+2026-10-25T16:52:11-04:00 [11/246] rep1 auto_hyper_clock_cache 64MB bits=1 ratio=0 t=1 x=10 reads=140000
+done: auto_hyper_clock_cache__c64M__s1__r0__t1__x10__n140000 rep1
+2026-10-25T16:52:43-04:00 [12/246] rep1 fixed_hyper_clock_cache 64MB bits=1 ratio=0 t=1 x=10 reads=140000
+done: fixed_hyper_clock_cache__c64M__s1__r0__t1__x10__n140000 rep1
+2026-10-25T16:53:15-04:00 [13/246] rep1 lru_cache 64MB bits=6 ratio=0.5 t=1 x=10 reads=140000
+done: lru_cache__c64M__s6__r0.5__t1__x10__n140000 rep1
+2026-10-25T16:53:43-04:00 [14/246] rep1 auto_hyper_clock_cache 64MB bits=1 ratio=0.5 t=1 x=10 reads=140000
+done: auto_hyper_clock_cache__c64M__s1__r0.5__t1__x10__n140000 rep1
+2026-10-25T16:54:15-04:00 [15/246] rep1 fixed_hyper_clock_cache 64MB bits=1 ratio=0.5 t=1 x=10 reads=140000
+done: fixed_hyper_clock_cache__c64M__s1__r0.5__t1__x10__n140000 rep1
+2026-10-25T16:54:47-04:00 [16/246] rep1 lru_cache 64MB bits=6 ratio=1 t=1 x=10 reads=140000
+done: lru_cache__c64M__s6__r1__t1__x10__n140000 rep1
+2026-10-25T16:55:14-04:00 [17/246] rep1 auto_hyper_clock_cache 64MB bits=1 ratio=1 t=1 x=10 reads=140000
+done: auto_hyper_clock_cache__c64M__s1__r1__t1__x10__n140000 rep1
+2026-10-25T16:55:43-04:00 [18/246] rep1 fixed_hyper_clock_cache 64MB bits=1 ratio=1 t=1 x=10 reads=140000
+done: fixed_hyper_clock_cache__c64M__s1__r1__t1__x10__n140000 rep1
+2026-10-25T16:56:13-04:00 [19/246] rep1 lru_cache 32MB bits=6 ratio=0.5 t=1 x=0 reads=100000
+done: lru_cache__c32M__s6__r0.5__t1__x0__n100000 rep1
+2026-10-25T16:56:42-04:00 [20/246] rep1 auto_hyper_clock_cache 32MB bits=0 ratio=0.5 t=1 x=0 reads=100000
+done: auto_hyper_clock_cache__c32M__s0__r0.5__t1__x0__n100000 rep1
+2026-10-25T16:57:15-04:00 [21/246] rep1 fixed_hyper_clock_cache 32MB bits=0 ratio=0.5 t=1 x=0 reads=100000
+done: fixed_hyper_clock_cache__c32M__s0__r0.5__t1__x0__n100000 rep1
+2026-10-25T16:57:50-04:00 [22/246] rep1 lru_cache 128MB bits=6 ratio=0.5 t=1 x=0 reads=160000
+done: lru_cache__c128M__s6__r0.5__t1__x0__n160000 rep1
+2026-10-25T16:58:22-04:00 [23/246] rep1 auto_hyper_clock_cache 128MB bits=2 ratio=0.5 t=1 x=0 reads=160000
+done: auto_hyper_clock_cache__c128M__s2__r0.5__t1__x0__n160000 rep1
+2026-10-25T16:58:54-04:00 [24/246] rep1 fixed_hyper_clock_cache 128MB bits=2 ratio=0.5 t=1 x=0 reads=160000
+done: fixed_hyper_clock_cache__c128M__s2__r0.5__t1__x0__n160000 rep1
+2026-10-25T16:59:27-04:00 [25/246] rep1 lru_cache 512MB bits=6 ratio=0.5 t=1 x=0 reads=200000
+done: lru_cache__c512M__s6__r0.5__t1__x0__n200000 rep1
+2026-10-25T17:00:06-04:00 [26/246] rep1 auto_hyper_clock_cache 512MB bits=4 ratio=0.5 t=1 x=0 reads=200000
+done: auto_hyper_clock_cache__c512M__s4__r0.5__t1__x0__n200000 rep1
+2026-10-25T17:00:45-04:00 [27/246] rep1 fixed_hyper_clock_cache 512MB bits=4 ratio=0.5 t=1 x=0 reads=200000
+done: fixed_hyper_clock_cache__c512M__s4__r0.5__t1__x0__n200000 rep1
+2026-10-25T17:01:24-04:00 [28/246] rep1 lru_cache 2048MB bits=6 ratio=0.5 t=1 x=0 reads=1020000
+done: lru_cache__c2048M__s6__r0.5__t1__x0__n1020000 rep1
+2026-10-25T17:04:15-04:00 [29/246] rep1 auto_hyper_clock_cache 2048MB bits=6 ratio=0.5 t=1 x=0 reads=1020000
+done: auto_hyper_clock_cache__c2048M__s6__r0.5__t1__x0__n1020000 rep1
+2026-10-25T17:07:04-04:00 [30/246] rep1 fixed_hyper_clock_cache 2048MB bits=6 ratio=0.5 t=1 x=0 reads=1020000
+done: fixed_hyper_clock_cache__c2048M__s6__r0.5__t1__x0__n1020000 rep1
+2026-10-25T17:09:37-04:00 [31/246] rep1 lru_cache 32MB bits=6 ratio=0.5 t=1 x=10 reads=100000
+done: lru_cache__c32M__s6__r0.5__t1__x10__n100000 rep1
+2026-10-25T17:10:09-04:00 [32/246] rep1 auto_hyper_clock_cache 32MB bits=0 ratio=0.5 t=1 x=10 reads=100000
+done: auto_hyper_clock_cache__c32M__s0__r0.5__t1__x10__n100000 rep1
+2026-10-25T17:10:42-04:00 [33/246] rep1 fixed_hyper_clock_cache 32MB bits=0 ratio=0.5 t=1 x=10 reads=100000
+done: fixed_hyper_clock_cache__c32M__s0__r0.5__t1__x10__n100000 rep1
+2026-10-25T17:11:16-04:00 [34/246] rep1 lru_cache 128MB bits=6 ratio=0.5 t=1 x=10 reads=200000
+done: lru_cache__c128M__s6__r0.5__t1__x10__n200000 rep1
+2026-10-25T17:11:51-04:00 [35/246] rep1 auto_hyper_clock_cache 128MB bits=2 ratio=0.5 t=1 x=10 reads=200000
+done: auto_hyper_clock_cache__c128M__s2__r0.5__t1__x10__n200000 rep1
+2026-10-25T17:12:28-04:00 [36/246] rep1 fixed_hyper_clock_cache 128MB bits=2 ratio=0.5 t=1 x=10 reads=200000
+done: fixed_hyper_clock_cache__c128M__s2__r0.5__t1__x10__n200000 rep1
+2026-10-25T17:13:05-04:00 [37/246] rep1 lru_cache 512MB bits=6 ratio=0.5 t=1 x=10 reads=250000
+done: lru_cache__c512M__s6__r0.5__t1__x10__n250000 rep1
+2026-10-25T17:13:46-04:00 [38/246] rep1 auto_hyper_clock_cache 512MB bits=4 ratio=0.5 t=1 x=10 reads=250000
+done: auto_hyper_clock_cache__c512M__s4__r0.5__t1__x10__n250000 rep1
+2026-10-25T17:14:25-04:00 [39/246] rep1 fixed_hyper_clock_cache 512MB bits=4 ratio=0.5 t=1 x=10 reads=250000
+done: fixed_hyper_clock_cache__c512M__s4__r0.5__t1__x10__n250000 rep1
+2026-10-25T17:15:00-04:00 [40/246] rep1 lru_cache 2048MB bits=6 ratio=0.5 t=1 x=10 reads=1020000
+done: lru_cache__c2048M__s6__r0.5__t1__x10__n1020000 rep1
+2026-10-25T17:16:42-04:00 [41/246] rep1 auto_hyper_clock_cache 2048MB bits=6 ratio=0.5 t=1 x=10 reads=1020000
+done: auto_hyper_clock_cache__c2048M__s6__r0.5__t1__x10__n1020000 rep1
+2026-10-25T17:18:31-04:00 [42/246] rep1 fixed_hyper_clock_cache 2048MB bits=6 ratio=0.5 t=1 x=10 reads=1020000
+done: fixed_hyper_clock_cache__c2048M__s6__r0.5__t1__x10__n1020000 rep1
+2026-10-25T17:20:15-04:00 [43/246] rep1 lru_cache 2048MB bits=6 ratio=0.5 t=2 x=0 reads=510000
+done: lru_cache__c2048M__s6__r0.5__t2__x0__n510000 rep1
+2026-10-25T17:21:42-04:00 [44/246] rep1 auto_hyper_clock_cache 2048MB bits=6 ratio=0.5 t=2 x=0 reads=510000
+done: auto_hyper_clock_cache__c2048M__s6__r0.5__t2__x0__n510000 rep1
+2026-10-25T17:23:05-04:00 [45/246] rep1 fixed_hyper_clock_cache 2048MB bits=6 ratio=0.5 t=2 x=0 reads=510000
+done: fixed_hyper_clock_cache__c2048M__s6__r0.5__t2__x0__n510000 rep1
+2026-10-25T17:24:26-04:00 [46/246] rep1 lru_cache 2048MB bits=6 ratio=0.5 t=2 x=10 reads=510000
+done: lru_cache__c2048M__s6__r0.5__t2__x10__n510000 rep1
+2026-10-25T17:25:24-04:00 [47/246] rep1 auto_hyper_clock_cache 2048MB bits=6 ratio=0.5 t=2 x=10 reads=510000
+done: auto_hyper_clock_cache__c2048M__s6__r0.5__t2__x10__n510000 rep1
+2026-10-25T17:26:22-04:00 [48/246] rep1 fixed_hyper_clock_cache 2048MB bits=6 ratio=0.5 t=2 x=10 reads=510000
+done: fixed_hyper_clock_cache__c2048M__s6__r0.5__t2__x10__n510000 rep1
+2026-10-25T17:27:18-04:00 [49/246] rep1 lru_cache 1024MB bits=0 ratio=0.5 t=2 x=0 reads=220000
+done: lru_cache__c1024M__s0__r0.5__t2__x0__n220000 rep1
+2026-10-25T17:28:10-04:00 [50/246] rep1 lru_cache 1024MB bits=2 ratio=0.5 t=2 x=0 reads=220000
+done: lru_cache__c1024M__s2__r0.5__t2__x0__n220000 rep1
+2026-10-25T17:28:54-04:00 [51/246] rep1 lru_cache 1024MB bits=4 ratio=0.5 t=2 x=0 reads=220000
+done: lru_cache__c1024M__s4__r0.5__t2__x0__n220000 rep1
+2026-10-25T17:29:37-04:00 [52/246] rep1 lru_cache 1024MB bits=6 ratio=0.5 t=2 x=0 reads=220000
+done: lru_cache__c1024M__s6__r0.5__t2__x0__n220000 rep1
+2026-10-25T17:30:19-04:00 [53/246] rep1 auto_hyper_clock_cache 1024MB bits=0 ratio=0.5 t=2 x=0 reads=220000
+done: auto_hyper_clock_cache__c1024M__s0__r0.5__t2__x0__n220000 rep1
+2026-10-25T17:31:00-04:00 [54/246] rep1 fixed_hyper_clock_cache 1024MB bits=0 ratio=0.5 t=2 x=0 reads=220000
+done: fixed_hyper_clock_cache__c1024M__s0__r0.5__t2__x0__n220000 rep1
+2026-10-25T17:31:41-04:00 [55/246] rep1 auto_hyper_clock_cache 1024MB bits=2 ratio=0.5 t=2 x=0 reads=220000
+done: auto_hyper_clock_cache__c1024M__s2__r0.5__t2__x0__n220000 rep1
+2026-10-25T17:32:23-04:00 [56/246] rep1 fixed_hyper_clock_cache 1024MB bits=2 ratio=0.5 t=2 x=0 reads=220000
+done: fixed_hyper_clock_cache__c1024M__s2__r0.5__t2__x0__n220000 rep1
+2026-10-25T17:33:03-04:00 [57/246] rep1 lru_cache 1024MB bits=0 ratio=0.5 t=2 x=10 reads=270000
+done: lru_cache__c1024M__s0__r0.5__t2__x10__n270000 rep1
+2026-10-25T17:33:50-04:00 [58/246] rep1 lru_cache 1024MB bits=2 ratio=0.5 t=2 x=10 reads=270000
+done: lru_cache__c1024M__s2__r0.5__t2__x10__n270000 rep1
+2026-10-25T17:34:30-04:00 [59/246] rep1 lru_cache 1024MB bits=4 ratio=0.5 t=2 x=10 reads=270000
+done: lru_cache__c1024M__s4__r0.5__t2__x10__n270000 rep1
+2026-10-25T17:35:07-04:00 [60/246] rep1 lru_cache 1024MB bits=6 ratio=0.5 t=2 x=10 reads=270000
+done: lru_cache__c1024M__s6__r0.5__t2__x10__n270000 rep1
+2026-10-25T17:35:43-04:00 [61/246] rep1 auto_hyper_clock_cache 1024MB bits=0 ratio=0.5 t=2 x=10 reads=270000
+done: auto_hyper_clock_cache__c1024M__s0__r0.5__t2__x10__n270000 rep1
+2026-10-25T17:36:21-04:00 [62/246] rep1 fixed_hyper_clock_cache 1024MB bits=0 ratio=0.5 t=2 x=10 reads=270000
+done: fixed_hyper_clock_cache__c1024M__s0__r0.5__t2__x10__n270000 rep1
+2026-10-25T17:36:56-04:00 [63/246] rep1 auto_hyper_clock_cache 1024MB bits=2 ratio=0.5 t=2 x=10 reads=270000
+done: auto_hyper_clock_cache__c1024M__s2__r0.5__t2__x10__n270000 rep1
+2026-10-25T17:37:32-04:00 [64/246] rep1 fixed_hyper_clock_cache 1024MB bits=2 ratio=0.5 t=2 x=10 reads=270000
+done: fixed_hyper_clock_cache__c1024M__s2__r0.5__t2__x10__n270000 rep1
+2026-10-25T17:38:07-04:00 [65/246] rep1 lru_cache 64MB bits=6 ratio=0.5 t=1 x=5 reads=140000
+done: lru_cache__c64M__s6__r0.5__t1__x5__n140000 rep1
+2026-10-25T17:38:40-04:00 [66/246] rep1 auto_hyper_clock_cache 64MB bits=1 ratio=0.5 t=1 x=5 reads=140000
+done: auto_hyper_clock_cache__c64M__s1__r0.5__t1__x5__n140000 rep1
+2026-10-25T17:39:14-04:00 [67/246] rep1 fixed_hyper_clock_cache 64MB bits=1 ratio=0.5 t=1 x=5 reads=140000
+done: fixed_hyper_clock_cache__c64M__s1__r0.5__t1__x5__n140000 rep1
+2026-10-25T17:39:50-04:00 [68/246] rep1 lru_cache 64MB bits=6 ratio=0.5 t=1 x=20 reads=280000
+done: lru_cache__c64M__s6__r0.5__t1__x20__n280000 rep1
+2026-10-25T17:40:24-04:00 [69/246] rep1 auto_hyper_clock_cache 64MB bits=1 ratio=0.5 t=1 x=20 reads=280000
+done: auto_hyper_clock_cache__c64M__s1__r0.5__t1__x20__n280000 rep1
+2026-10-25T17:41:00-04:00 [70/246] rep1 fixed_hyper_clock_cache 64MB bits=1 ratio=0.5 t=1 x=20 reads=280000
+done: fixed_hyper_clock_cache__c64M__s1__r0.5__t1__x20__n280000 rep1
+2026-10-25T17:41:39-04:00 [71/246] rep1 lru_cache 64MB bits=6 ratio=0.5 t=2 x=0 reads=140000
+done: lru_cache__c64M__s6__r0.5__t2__x0__n140000 rep1
+2026-10-25T17:42:12-04:00 [72/246] rep1 auto_hyper_clock_cache 64MB bits=1 ratio=0.5 t=2 x=0 reads=140000
+done: auto_hyper_clock_cache__c64M__s1__r0.5__t2__x0__n140000 rep1
+2026-10-25T17:42:50-04:00 [73/246] rep1 fixed_hyper_clock_cache 64MB bits=1 ratio=0.5 t=2 x=0 reads=140000
+done: fixed_hyper_clock_cache__c64M__s1__r0.5__t2__x0__n140000 rep1
+2026-10-25T17:43:28-04:00 [74/246] rep1 lru_cache 64MB bits=6 ratio=0.5 t=2 x=5 reads=140000
+done: lru_cache__c64M__s6__r0.5__t2__x5__n140000 rep1
+2026-10-25T17:44:02-04:00 [75/246] rep1 auto_hyper_clock_cache 64MB bits=1 ratio=0.5 t=2 x=5 reads=140000
+done: auto_hyper_clock_cache__c64M__s1__r0.5__t2__x5__n140000 rep1
+2026-10-25T17:44:38-04:00 [76/246] rep1 fixed_hyper_clock_cache 64MB bits=1 ratio=0.5 t=2 x=5 reads=140000
+done: fixed_hyper_clock_cache__c64M__s1__r0.5__t2__x5__n140000 rep1
+2026-10-25T17:45:15-04:00 [77/246] rep1 lru_cache 64MB bits=6 ratio=0.5 t=2 x=10 reads=150000
+done: lru_cache__c64M__s6__r0.5__t2__x10__n150000 rep1
+2026-10-25T17:45:49-04:00 [78/246] rep1 auto_hyper_clock_cache 64MB bits=1 ratio=0.5 t=2 x=10 reads=150000
+done: auto_hyper_clock_cache__c64M__s1__r0.5__t2__x10__n150000 rep1
+2026-10-25T17:46:25-04:00 [79/246] rep1 fixed_hyper_clock_cache 64MB bits=1 ratio=0.5 t=2 x=10 reads=150000
+done: fixed_hyper_clock_cache__c64M__s1__r0.5__t2__x10__n150000 rep1
+2026-10-25T17:47:01-04:00 [80/246] rep1 lru_cache 64MB bits=6 ratio=0.5 t=2 x=20 reads=240000
+done: lru_cache__c64M__s6__r0.5__t2__x20__n240000 rep1
+2026-10-25T17:47:30-04:00 [81/246] rep1 auto_hyper_clock_cache 64MB bits=1 ratio=0.5 t=2 x=20 reads=240000
+done: auto_hyper_clock_cache__c64M__s1__r0.5__t2__x20__n240000 rep1
+2026-10-25T17:48:04-04:00 [82/246] rep1 fixed_hyper_clock_cache 64MB bits=1 ratio=0.5 t=2 x=20 reads=240000
+done: fixed_hyper_clock_cache__c64M__s1__r0.5__t2__x20__n240000 rep1
+2026-10-25T17:48:36-04:00 [83/246] rep2 lru_cache 64MB bits=6 ratio=0 t=1 x=0 reads=130000
+done: lru_cache__c64M__s6__r0__t1__x0__n130000 rep2
+2026-10-25T17:49:10-04:00 [84/246] rep2 auto_hyper_clock_cache 64MB bits=1 ratio=0 t=1 x=0 reads=130000
+done: auto_hyper_clock_cache__c64M__s1__r0__t1__x0__n130000 rep2
+2026-10-25T17:49:45-04:00 [85/246] rep2 fixed_hyper_clock_cache 64MB bits=1 ratio=0 t=1 x=0 reads=130000
+done: fixed_hyper_clock_cache__c64M__s1__r0__t1__x0__n130000 rep2
+2026-10-25T17:50:19-04:00 [86/246] rep2 lru_cache 64MB bits=6 ratio=0.5 t=1 x=0 reads=130000
+done: lru_cache__c64M__s6__r0.5__t1__x0__n130000 rep2
+2026-10-25T17:50:49-04:00 [87/246] rep2 auto_hyper_clock_cache 64MB bits=1 ratio=0.5 t=1 x=0 reads=130000
+done: auto_hyper_clock_cache__c64M__s1__r0.5__t1__x0__n130000 rep2
+2026-10-25T17:51:24-04:00 [88/246] rep2 fixed_hyper_clock_cache 64MB bits=1 ratio=0.5 t=1 x=0 reads=130000
+done: fixed_hyper_clock_cache__c64M__s1__r0.5__t1__x0__n130000 rep2
+2026-10-25T17:51:58-04:00 [89/246] rep2 lru_cache 64MB bits=6 ratio=1 t=1 x=0 reads=130000
+done: lru_cache__c64M__s6__r1__t1__x0__n130000 rep2
+2026-10-25T17:52:27-04:00 [90/246] rep2 auto_hyper_clock_cache 64MB bits=1 ratio=1 t=1 x=0 reads=130000
+done: auto_hyper_clock_cache__c64M__s1__r1__t1__x0__n130000 rep2
+2026-10-25T17:52:58-04:00 [91/246] rep2 fixed_hyper_clock_cache 64MB bits=1 ratio=1 t=1 x=0 reads=130000
+done: fixed_hyper_clock_cache__c64M__s1__r1__t1__x0__n130000 rep2
+2026-10-25T17:53:31-04:00 [92/246] rep2 lru_cache 64MB bits=6 ratio=0 t=1 x=10 reads=140000
+done: lru_cache__c64M__s6__r0__t1__x10__n140000 rep2
+2026-10-25T17:54:05-04:00 [93/246] rep2 auto_hyper_clock_cache 64MB bits=1 ratio=0 t=1 x=10 reads=140000
+done: auto_hyper_clock_cache__c64M__s1__r0__t1__x10__n140000 rep2
+2026-10-25T17:54:37-04:00 [94/246] rep2 fixed_hyper_clock_cache 64MB bits=1 ratio=0 t=1 x=10 reads=140000
+done: fixed_hyper_clock_cache__c64M__s1__r0__t1__x10__n140000 rep2
+2026-10-25T17:55:06-04:00 [95/246] rep2 lru_cache 64MB bits=6 ratio=0.5 t=1 x=10 reads=140000
+done: lru_cache__c64M__s6__r0.5__t1__x10__n140000 rep2
+2026-10-25T17:55:35-04:00 [96/246] rep2 auto_hyper_clock_cache 64MB bits=1 ratio=0.5 t=1 x=10 reads=140000
+done: auto_hyper_clock_cache__c64M__s1__r0.5__t1__x10__n140000 rep2
+2026-10-25T17:56:05-04:00 [97/246] rep2 fixed_hyper_clock_cache 64MB bits=1 ratio=0.5 t=1 x=10 reads=140000
+done: fixed_hyper_clock_cache__c64M__s1__r0.5__t1__x10__n140000 rep2
+2026-10-25T17:56:36-04:00 [98/246] rep2 lru_cache 64MB bits=6 ratio=1 t=1 x=10 reads=140000
+done: lru_cache__c64M__s6__r1__t1__x10__n140000 rep2
+2026-10-25T17:57:01-04:00 [99/246] rep2 auto_hyper_clock_cache 64MB bits=1 ratio=1 t=1 x=10 reads=140000
+done: auto_hyper_clock_cache__c64M__s1__r1__t1__x10__n140000 rep2
+2026-10-25T17:57:32-04:00 [100/246] rep2 fixed_hyper_clock_cache 64MB bits=1 ratio=1 t=1 x=10 reads=140000
+done: fixed_hyper_clock_cache__c64M__s1__r1__t1__x10__n140000 rep2
+2026-10-25T17:58:04-04:00 [101/246] rep2 lru_cache 32MB bits=6 ratio=0.5 t=1 x=0 reads=100000
+done: lru_cache__c32M__s6__r0.5__t1__x0__n100000 rep2
+2026-10-25T17:58:36-04:00 [102/246] rep2 auto_hyper_clock_cache 32MB bits=0 ratio=0.5 t=1 x=0 reads=100000
+done: auto_hyper_clock_cache__c32M__s0__r0.5__t1__x0__n100000 rep2
+2026-10-25T17:59:09-04:00 [103/246] rep2 fixed_hyper_clock_cache 32MB bits=0 ratio=0.5 t=1 x=0 reads=100000
+done: fixed_hyper_clock_cache__c32M__s0__r0.5__t1__x0__n100000 rep2
+2026-10-25T17:59:45-04:00 [104/246] rep2 lru_cache 128MB bits=6 ratio=0.5 t=1 x=0 reads=160000
+done: lru_cache__c128M__s6__r0.5__t1__x0__n160000 rep2
+2026-10-25T18:00:19-04:00 [105/246] rep2 auto_hyper_clock_cache 128MB bits=2 ratio=0.5 t=1 x=0 reads=160000
+done: auto_hyper_clock_cache__c128M__s2__r0.5__t1__x0__n160000 rep2
+2026-10-25T18:00:53-04:00 [106/246] rep2 fixed_hyper_clock_cache 128MB bits=2 ratio=0.5 t=1 x=0 reads=160000
+done: fixed_hyper_clock_cache__c128M__s2__r0.5__t1__x0__n160000 rep2
+2026-10-25T18:01:25-04:00 [107/246] rep2 lru_cache 512MB bits=6 ratio=0.5 t=1 x=0 reads=200000
+done: lru_cache__c512M__s6__r0.5__t1__x0__n200000 rep2
+2026-10-25T18:02:06-04:00 [108/246] rep2 auto_hyper_clock_cache 512MB bits=4 ratio=0.5 t=1 x=0 reads=200000
+done: auto_hyper_clock_cache__c512M__s4__r0.5__t1__x0__n200000 rep2
+2026-10-25T18:02:44-04:00 [109/246] rep2 fixed_hyper_clock_cache 512MB bits=4 ratio=0.5 t=1 x=0 reads=200000
+done: fixed_hyper_clock_cache__c512M__s4__r0.5__t1__x0__n200000 rep2
+2026-10-25T18:03:21-04:00 [110/246] rep2 lru_cache 2048MB bits=6 ratio=0.5 t=1 x=0 reads=1020000
+done: lru_cache__c2048M__s6__r0.5__t1__x0__n1020000 rep2
+2026-10-25T18:05:58-04:00 [111/246] rep2 auto_hyper_clock_cache 2048MB bits=6 ratio=0.5 t=1 x=0 reads=1020000
+done: auto_hyper_clock_cache__c2048M__s6__r0.5__t1__x0__n1020000 rep2
+2026-10-25T18:08:30-04:00 [112/246] rep2 fixed_hyper_clock_cache 2048MB bits=6 ratio=0.5 t=1 x=0 reads=1020000
+done: fixed_hyper_clock_cache__c2048M__s6__r0.5__t1__x0__n1020000 rep2
+2026-10-25T18:10:58-04:00 [113/246] rep2 lru_cache 32MB bits=6 ratio=0.5 t=1 x=10 reads=100000
+done: lru_cache__c32M__s6__r0.5__t1__x10__n100000 rep2
+2026-10-25T18:11:32-04:00 [114/246] rep2 auto_hyper_clock_cache 32MB bits=0 ratio=0.5 t=1 x=10 reads=100000
+done: auto_hyper_clock_cache__c32M__s0__r0.5__t1__x10__n100000 rep2
+2026-10-25T18:12:07-04:00 [115/246] rep2 fixed_hyper_clock_cache 32MB bits=0 ratio=0.5 t=1 x=10 reads=100000
+done: fixed_hyper_clock_cache__c32M__s0__r0.5__t1__x10__n100000 rep2
+2026-10-25T18:12:42-04:00 [116/246] rep2 lru_cache 128MB bits=6 ratio=0.5 t=1 x=10 reads=200000
+done: lru_cache__c128M__s6__r0.5__t1__x10__n200000 rep2
+2026-10-25T18:13:15-04:00 [117/246] rep2 auto_hyper_clock_cache 128MB bits=2 ratio=0.5 t=1 x=10 reads=200000
+done: auto_hyper_clock_cache__c128M__s2__r0.5__t1__x10__n200000 rep2
+2026-10-25T18:13:50-04:00 [118/246] rep2 fixed_hyper_clock_cache 128MB bits=2 ratio=0.5 t=1 x=10 reads=200000
+done: fixed_hyper_clock_cache__c128M__s2__r0.5__t1__x10__n200000 rep2
+2026-10-25T18:14:25-04:00 [119/246] rep2 lru_cache 512MB bits=6 ratio=0.5 t=1 x=10 reads=250000
+done: lru_cache__c512M__s6__r0.5__t1__x10__n250000 rep2
+2026-10-25T18:15:01-04:00 [120/246] rep2 auto_hyper_clock_cache 512MB bits=4 ratio=0.5 t=1 x=10 reads=250000
+done: auto_hyper_clock_cache__c512M__s4__r0.5__t1__x10__n250000 rep2
+2026-10-25T18:15:37-04:00 [121/246] rep2 fixed_hyper_clock_cache 512MB bits=4 ratio=0.5 t=1 x=10 reads=250000
+done: fixed_hyper_clock_cache__c512M__s4__r0.5__t1__x10__n250000 rep2
+2026-10-25T18:16:10-04:00 [122/246] rep2 lru_cache 2048MB bits=6 ratio=0.5 t=1 x=10 reads=1020000
+done: lru_cache__c2048M__s6__r0.5__t1__x10__n1020000 rep2
+2026-10-25T18:17:54-04:00 [123/246] rep2 auto_hyper_clock_cache 2048MB bits=6 ratio=0.5 t=1 x=10 reads=1020000
+done: auto_hyper_clock_cache__c2048M__s6__r0.5__t1__x10__n1020000 rep2
+2026-10-25T18:19:36-04:00 [124/246] rep2 fixed_hyper_clock_cache 2048MB bits=6 ratio=0.5 t=1 x=10 reads=1020000
+done: fixed_hyper_clock_cache__c2048M__s6__r0.5__t1__x10__n1020000 rep2
+2026-10-25T18:21:14-04:00 [125/246] rep2 lru_cache 2048MB bits=6 ratio=0.5 t=2 x=0 reads=510000
+done: lru_cache__c2048M__s6__r0.5__t2__x0__n510000 rep2
+2026-10-25T18:22:33-04:00 [126/246] rep2 auto_hyper_clock_cache 2048MB bits=6 ratio=0.5 t=2 x=0 reads=510000
+done: auto_hyper_clock_cache__c2048M__s6__r0.5__t2__x0__n510000 rep2
+2026-10-25T18:23:51-04:00 [127/246] rep2 fixed_hyper_clock_cache 2048MB bits=6 ratio=0.5 t=2 x=0 reads=510000
+done: fixed_hyper_clock_cache__c2048M__s6__r0.5__t2__x0__n510000 rep2
+2026-10-25T18:25:07-04:00 [128/246] rep2 lru_cache 2048MB bits=6 ratio=0.5 t=2 x=10 reads=510000
+done: lru_cache__c2048M__s6__r0.5__t2__x10__n510000 rep2
+2026-10-25T18:26:03-04:00 [129/246] rep2 auto_hyper_clock_cache 2048MB bits=6 ratio=0.5 t=2 x=10 reads=510000
+done: auto_hyper_clock_cache__c2048M__s6__r0.5__t2__x10__n510000 rep2
+2026-10-25T18:26:58-04:00 [130/246] rep2 fixed_hyper_clock_cache 2048MB bits=6 ratio=0.5 t=2 x=10 reads=510000
+done: fixed_hyper_clock_cache__c2048M__s6__r0.5__t2__x10__n510000 rep2
+2026-10-25T18:27:50-04:00 [131/246] rep2 lru_cache 1024MB bits=0 ratio=0.5 t=2 x=0 reads=220000
+done: lru_cache__c1024M__s0__r0.5__t2__x0__n220000 rep2
+2026-10-25T18:28:41-04:00 [132/246] rep2 lru_cache 1024MB bits=2 ratio=0.5 t=2 x=0 reads=220000
+done: lru_cache__c1024M__s2__r0.5__t2__x0__n220000 rep2
+2026-10-25T18:29:26-04:00 [133/246] rep2 lru_cache 1024MB bits=4 ratio=0.5 t=2 x=0 reads=220000
+done: lru_cache__c1024M__s4__r0.5__t2__x0__n220000 rep2
+2026-10-25T18:30:08-04:00 [134/246] rep2 lru_cache 1024MB bits=6 ratio=0.5 t=2 x=0 reads=220000
+done: lru_cache__c1024M__s6__r0.5__t2__x0__n220000 rep2
+2026-10-25T18:30:52-04:00 [135/246] rep2 auto_hyper_clock_cache 1024MB bits=0 ratio=0.5 t=2 x=0 reads=220000
+done: auto_hyper_clock_cache__c1024M__s0__r0.5__t2__x0__n220000 rep2
+2026-10-25T18:31:35-04:00 [136/246] rep2 fixed_hyper_clock_cache 1024MB bits=0 ratio=0.5 t=2 x=0 reads=220000
+done: fixed_hyper_clock_cache__c1024M__s0__r0.5__t2__x0__n220000 rep2
+2026-10-25T18:32:17-04:00 [137/246] rep2 auto_hyper_clock_cache 1024MB bits=2 ratio=0.5 t=2 x=0 reads=220000
+done: auto_hyper_clock_cache__c1024M__s2__r0.5__t2__x0__n220000 rep2
+2026-10-25T18:33:00-04:00 [138/246] rep2 fixed_hyper_clock_cache 1024MB bits=2 ratio=0.5 t=2 x=0 reads=220000
+done: fixed_hyper_clock_cache__c1024M__s2__r0.5__t2__x0__n220000 rep2
+2026-10-25T18:33:45-04:00 [139/246] rep2 lru_cache 1024MB bits=0 ratio=0.5 t=2 x=10 reads=270000
+done: lru_cache__c1024M__s0__r0.5__t2__x10__n270000 rep2
+2026-10-25T18:34:39-04:00 [140/246] rep2 lru_cache 1024MB bits=2 ratio=0.5 t=2 x=10 reads=270000
+done: lru_cache__c1024M__s2__r0.5__t2__x10__n270000 rep2
+2026-10-25T18:35:20-04:00 [141/246] rep2 lru_cache 1024MB bits=4 ratio=0.5 t=2 x=10 reads=270000
+done: lru_cache__c1024M__s4__r0.5__t2__x10__n270000 rep2
+2026-10-25T18:35:57-04:00 [142/246] rep2 lru_cache 1024MB bits=6 ratio=0.5 t=2 x=10 reads=270000
+done: lru_cache__c1024M__s6__r0.5__t2__x10__n270000 rep2
+2026-10-25T18:36:36-04:00 stopping before run 143/246 (time limit or STOP file); rerun to resume

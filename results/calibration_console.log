@@ -1,0 +1,62 @@
+calibrating 20 points (target 10s per phase)
+16:28:48 64MB t=1 x=0 lru_cache: 11347 ops/s
+16:29:05 64MB t=1 x=0 auto_hyper_clock_cache: 12485 ops/s
+16:29:21 64MB t=1 x=10 lru_cache: 13721 ops/s
+16:29:37 64MB t=1 x=10 auto_hyper_clock_cache: 13786 ops/s
+16:29:59 32MB t=1 x=0 lru_cache: 9328 ops/s
+16:30:22 32MB t=1 x=0 auto_hyper_clock_cache: 8899 ops/s
+16:30:37 128MB t=1 x=0 lru_cache: 14604 ops/s
+16:30:51 128MB t=1 x=0 auto_hyper_clock_cache: 15530 ops/s
+16:31:18 512MB t=1 x=0 lru_cache: 15630 ops/s
+16:31:47 512MB t=1 x=0 auto_hyper_clock_cache: 15414 ops/s
+16:33:37 2048MB t=1 x=0 lru_cache: 20047 ops/s
+16:35:29 2048MB t=1 x=0 auto_hyper_clock_cache: 19360 ops/s
+16:35:51 32MB t=1 x=10 lru_cache: 9630 ops/s
+16:36:13 32MB t=1 x=10 auto_hyper_clock_cache: 9436 ops/s
+16:36:25 128MB t=1 x=10 lru_cache: 19777 ops/s
+16:36:37 128MB t=1 x=10 auto_hyper_clock_cache: 18041 ops/s
+16:36:59 512MB t=1 x=10 lru_cache: 24161 ops/s
+16:37:18 512MB t=1 x=10 auto_hyper_clock_cache: 24391 ops/s
+16:38:27 2048MB t=1 x=10 lru_cache: 35134 ops/s
+16:39:36 2048MB t=1 x=10 auto_hyper_clock_cache: 34134 ops/s
+16:40:31 2048MB t=2 x=0 lru_cache: 40675 ops/s
+16:41:27 2048MB t=2 x=0 auto_hyper_clock_cache: 41271 ops/s
+16:42:04 2048MB t=2 x=10 lru_cache: 66640 ops/s
+16:42:40 2048MB t=2 x=10 auto_hyper_clock_cache: 70323 ops/s
+16:43:10 1024MB t=2 x=0 lru_cache: 31502 ops/s
+16:43:38 1024MB t=2 x=0 auto_hyper_clock_cache: 32837 ops/s
+16:43:58 1024MB t=2 x=10 lru_cache: 51550 ops/s
+16:44:19 1024MB t=2 x=10 auto_hyper_clock_cache: 52273 ops/s
+16:44:35 64MB t=1 x=5 lru_cache: 13948 ops/s
+16:44:51 64MB t=1 x=5 auto_hyper_clock_cache: 12752 ops/s
+16:45:00 64MB t=1 x=20 lru_cache: 27113 ops/s
+16:45:09 64MB t=1 x=20 auto_hyper_clock_cache: 23786 ops/s
+16:45:18 64MB t=2 x=0 lru_cache: 27279 ops/s
+16:45:27 64MB t=2 x=0 auto_hyper_clock_cache: 22458 ops/s
+16:45:36 64MB t=2 x=5 lru_cache: 26417 ops/s
+16:45:45 64MB t=2 x=5 auto_hyper_clock_cache: 22519 ops/s
+16:45:53 64MB t=2 x=10 lru_cache: 29146 ops/s
+16:46:02 64MB t=2 x=10 auto_hyper_clock_cache: 26039 ops/s
+16:46:07 64MB t=2 x=20 lru_cache: 47877 ops/s
+16:46:13 64MB t=2 x=20 auto_hyper_clock_cache: 43017 ops/s
+   32 MB  threads=1   exp_range=0   reads/thread=  100,000  (fill   100,000, fastest    9,328 ops/s, slowest phase ~11 s)
+   32 MB  threads=1   exp_range=10  reads/thread=  100,000  (fill   100,000, fastest    9,630 ops/s, slowest phase ~11 s)
+   64 MB  threads=1   exp_range=0   reads/thread=  130,000  (fill   100,000, fastest   12,485 ops/s, slowest phase ~11 s)
+   64 MB  threads=1   exp_range=5   reads/thread=  140,000  (fill   100,000, fastest   13,948 ops/s, slowest phase ~11 s)
+   64 MB  threads=1   exp_range=10  reads/thread=  140,000  (fill   100,000, fastest   13,786 ops/s, slowest phase ~10 s)
+   64 MB  threads=1   exp_range=20  reads/thread=  280,000  (fill   100,000, fastest   27,113 ops/s, slowest phase ~12 s)
+   64 MB  threads=2   exp_range=0   reads/thread=  140,000  (fill   100,000, fastest   27,279 ops/s, slowest phase ~12 s)
+   64 MB  threads=2   exp_range=5   reads/thread=  140,000  (fill   100,000, fastest   26,417 ops/s, slowest phase ~12 s)
+   64 MB  threads=2   exp_range=10  reads/thread=  150,000  (fill   100,000, fastest   29,146 ops/s, slowest phase ~12 s)
+   64 MB  threads=2   exp_range=20  reads/thread=  240,000  (fill   100,000, fastest   47,877 ops/s, slowest phase ~11 s)
+  128 MB  threads=1   exp_range=0   reads/thread=  160,000  (fill   100,000, fastest   15,530 ops/s, slowest phase ~11 s)
+  128 MB  threads=1   exp_range=10  reads/thread=  200,000  (fill   100,000, fastest   19,777 ops/s, slowest phase ~11 s)
+  512 MB  threads=1   exp_range=0   reads/thread=  200,000  (fill   200,000, fastest   15,630 ops/s, slowest phase ~13 s)
+  512 MB  threads=1   exp_range=10  reads/thread=  250,000  (fill   200,000, fastest   24,391 ops/s, slowest phase ~10 s)
+ 1024 MB  threads=2   exp_range=0   reads/thread=  220,000  (fill   440,000, fastest   32,837 ops/s, slowest phase ~14 s)
+ 1024 MB  threads=2   exp_range=10  reads/thread=  270,000  (fill   440,000, fastest   52,273 ops/s, slowest phase ~10 s)
+ 2048 MB  threads=1   exp_range=0   reads/thread=1,020,000  (fill 1,020,000, fastest   20,047 ops/s, slowest phase ~53 s)
+ 2048 MB  threads=1   exp_range=10  reads/thread=1,020,000  (fill 1,020,000, fastest   35,134 ops/s, slowest phase ~30 s)
+ 2048 MB  threads=2   exp_range=0   reads/thread=  510,000  (fill 1,020,000, fastest   41,271 ops/s, slowest phase ~25 s)
+ 2048 MB  threads=2   exp_range=10  reads/thread=  510,000  (fill 1,020,000, fastest   70,323 ops/s, slowest phase ~15 s)
+wrote /home/claude/lru_vs_hcc/results/reads.tsv

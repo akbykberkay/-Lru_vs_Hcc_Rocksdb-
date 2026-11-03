@@ -1,0 +1,22 @@
+runs: 246 repetitions of 82 configurations
+[PASS] measured lookups == threads x reads (0 mismatches)
+[INFO] multi-thread runs: warm-up data misses vary across repetitions by at most 5.5e-04 of the measured data accesses (bound on the W-subtraction error)
+[INFO] multi-thread runs: warm-up index misses vary across repetitions by at most 2.1e-03 of the measured index accesses (bound on the W-subtraction error)
+[INFO] multi-thread runs: warm-up filter misses vary across repetitions by at most 3.0e-04 of the measured filter accesses (bound on the W-subtraction error)
+[PASS] applied cache type / capacity / shard bits match the request (0 mismatches)
+[PASS] direct reads enabled in every run
+[PASS] HyperClockCache, 1 thread: miss counts for ratio 0 / 0.5 / 1 differ by at most 1.2e-04 of the accesses, the same as between repetitions (the ratio has no effect on HCC)
+[INFO] LRUCache in E0 (64 MB, 1 thread): index/filter miss ratio and throughput by ratio
+         skew 0  ratio 0:  index  18.76%  filter   3.04%  12,489 ops/s
+         skew 0  ratio 0.5:  index   4.89%  filter   0.74%  14,638 ops/s
+         skew 0  ratio 1:  index   0.01%  filter   0.00%  15,471 ops/s
+         skew 10  ratio 0:  index  16.67%  filter   2.66%  13,805 ops/s
+         skew 10  ratio 0.5:  index   6.71%  filter   1.01%  16,192 ops/s
+         skew 10  ratio 1:  index   0.01%  filter   0.00%  19,197 ops/s
+[PASS] 1-thread configurations: repetitions agree on miss counts (exactly in 10/48; max difference 3.5e-04 of the accesses)
+[INFO] throughput coefficient of variation across repetitions: median 0.035, max 0.105
+         0.105  auto_hyper_clock_cache__c1024M__s0__r0.5__t2__x10__n270000
+         0.098  fixed_hyper_clock_cache__c1024M__s0__r0.5__t2__x10__n270000
+         0.084  fixed_hyper_clock_cache__c1024M__s2__r0.5__t2__x0__n220000
+         0.083  auto_hyper_clock_cache__c64M__s1__r1__t1__x0__n130000
+         0.081  fixed_hyper_clock_cache__c64M__s1__r0.5__t2__x5__n140000
